@@ -1,6 +1,13 @@
 # Neural Network
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&color=00FF80&center=false&vCenter=false&width=800&lines=banknotes.csv+-+Dataset+for+Fraud+Detection;edgedetection_input.input+-+Image+for+Edge+Detection;MNIST_cnn_model+-+Pretrained+CNN+Accuracy+0.9875" alt="Typing SVG" />
+</p>
+
+
+
 > This repository is a self-learning project on neural networks, covering both the foundations and practical implementations.  
    It combines theoretical understanding with applied experiments in fraud detection, computer vision, and sequence modeling.
+
 
  ## Overview
 
