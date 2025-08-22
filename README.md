@@ -79,11 +79,15 @@
   
   >**Computer Vision** with edge detection  
   >- Input image: `edgedetection_input.input`  
-   >- Processing, visualization, and saving output  
+   >- Processing, visualization, and saving output
+### Edge Detection output image:
+> `edgedetection_output.png`
   
   >- **Handwriting Recognition** with CNNs on MNIST  
    >- Pre-trained model: `MNIST_cnn_model` (accuracy: 0.9887)  
-   >- Retrainable with custom naming (do not append `.keras` extension)  
+   >- Retrainable with custom naming (do not append `.keras` extension)
+### Trained MNIST output Model
+>`MNIST_cnn_model.keras`  
 ---
 ## Files
 
