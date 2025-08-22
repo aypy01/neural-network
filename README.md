@@ -97,7 +97,6 @@
 >- `edgedetection_input.input`
 >- python file `neural_network.py`
 >- `NERVMAP.txt`
-## Trained MNIST output Model
->`MNIST_cnn_model.keras`  
+
 
 
