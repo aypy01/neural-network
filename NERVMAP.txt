@@ -1,0 +1,53 @@
+Neural Networks (Analogy to brain neurons)
+├── Neuron Concept
+│   ├── Electrical signals → Threshold → Transmission
+│   ├── ANN → Neurons = nodes, Connections = weights
+│   └── Bias → Confidence adjustment
+
+├── Core Components
+│   ├── Weights (good vs bad, adjusted iteratively)
+│   ├── Bias (fine-tuning confidence)
+│   └── Activation Functions
+│       ├── Step → Hard 0 or 1
+│       ├── Sigmoid → Probability curve (0 to 1)
+│       └── ReLU → Positive values or 0
+
+├── Learning Process
+│   ├── Forward Pass → Input → Hidden layers → Output
+│   ├── Loss Function → Measures error
+│   ├── Gradient Descent
+│   │   ├── Batch → Exhaustive, accurate
+│   │   ├── Stochastic → One sample, noisy
+│   │   └── Mini-batch → Balance between both
+│   └── Backpropagation → Adjust weights + bias iteratively
+
+├── Challenges
+│   └── Overfitting → Solved with Dropout (randomly ignore nodes)
+
+├── Framework
+│   └── TensorFlow (model.compile, model.fit, model.evaluate)
+
+├── Applications
+│   ├── Fraud Detection (Banknotes dataset)
+│   ├── MNIST Digit Classification
+│   └── Model Evaluation → Accuracy metric
+
+├── CNN (Convolutional Neural Networks)
+│   ├── Image Representation
+│   │   ├── Pixel values (0–255 grayscale, RGB channels)
+│   │   └── Higher dimensional arrays
+│   ├── Convolution
+│   │   ├── Kernel × Pixels → Feature extraction
+│   │   ├── Stride → Step size
+│   │   └── Padding → Preserve borders
+│   ├── Pooling
+│   │   └── Max Pooling → Downsample strongest features
+│   └── Flatten → Feed into traditional NN layers
+
+├── RNN (Recurrent Neural Networks)
+│   ├── Sequential Input → Network reuses output for next step
+│   ├── Captures temporal/multiple features
+│   ├── Application: CaptionBot
+│   │   ├── CNN → Extract features from image
+│   │   └── RNN → Generate descriptive phrases
+│   └── Connection with NLP → Converts features into meaningful text
